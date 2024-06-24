@@ -1,0 +1,75 @@
+@font-face {
+    font-family: "Poppins_bold";
+    src: url(/fonts/Poppins-Bold.ttf);
+}
+
+.page__main {
+    display: flex;
+    flex-direction: column;
+}
+
+.sell-section {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 113px;
+}
+
+.sell-section__info {
+    width: 256px;
+    height: 264px;
+}
+
+.info__title {
+    font-family: "Poppins_bold";
+    color: $main-color;
+    font-size: 32px;
+    line-height: 48px;
+    padding-bottom: 12px;
+}
+
+.info__text {
+    font-family: "Poppins_medium";
+    color: $text-color;
+    font-size: 18px;
+    line-height: 27px;
+    padding-bottom: 24px;
+}
+
+.form__button {
+    width: 168px;
+    height: 51px;
+}
+
+.button__text {
+    padding-right: 10px;
+}
+
+.card-product {
+    padding-right: 48px;
+}
+
+.card-product__pic {
+    padding-bottom: 12px;
+    width: auto;
+    height: 363px;
+}
+
+.right {
+    padding-right: 0;
+}
+
+.card-product__name {
+    font-family: "Poppins_medium";
+    font-size: 18px;
+    line-height: 27px;
+    padding-bottom: 7px;
+    color: $main-color;
+}
+
+.card-product__price {
+    font-family: "Poppins_medium";
+    font-size: 18px;
+    line-height: 27px;
+    color: $text-color;
+}

@@ -1,0 +1,23 @@
+$main-color: #1E1E1E;
+$bg-color: #C1DCDC;
+$text-color: rgba(30, 30, 30, 0.5);
+$tesmonial-color: rgba(30, 30, 30, 0.75);
+
+@import "./blocks/header";
+@import "./blocks/sell-section";
+@import "./blocks/about";
+@import "./blocks/categories";
+@import "./blocks/testimonial";
+@import "./blocks/footer";
+@import "./blocks/adaptiv";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    max-width: 1248px;
+    margin: 0 auto;
+}

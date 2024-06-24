@@ -1,0 +1,45 @@
+@media (max-width: 1249px) {
+    /* header */
+    .conteiner {
+        max-width: 832px;
+    }
+
+    .rectangle {
+        width: 350px;
+    }
+
+    .bush-arm {
+        right: -11px;
+    }
+
+    .vector-left {
+        width: 104px;
+        bottom: 125px;
+    }
+
+    .vector-right {
+        width: 60px;
+        top: 33px;
+        right: 30px;
+    }
+
+    /* sell-section */
+    .card-product {
+        padding-right: 24px;
+    }
+
+    .card-product__pic {
+        height: 293px;
+    }
+    
+    .right {
+        padding-right: 0px;
+    }
+
+    /* categories */
+    .section__pic {
+        width: 272px;
+        height: auto;
+        margin: 0 auto;
+    }
+}

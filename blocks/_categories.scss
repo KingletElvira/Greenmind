@@ -1,0 +1,79 @@
+.categories__background {
+    display: block;
+    width: 100%;
+    background-color: $bg-color;
+}
+
+.categories__header {
+    flex-direction: column;
+}
+
+.categories__title {
+    font-family: "Poppins_bold";
+    font-size: 32px;
+    line-height: 48px;
+    color: $main-color;
+    text-align: center;
+    padding-bottom: 12px;
+}
+
+.categories__subtitle {
+    font-family: "Poppins_medium";
+    font-size: 18px;
+    line-height: 27px;
+    color: $text-color;
+    text-align: center;
+}
+
+.categories__sections {
+    margin-top: 96px;
+}
+
+.section__cards {
+    padding-top: 48px;
+    justify-content: space-between;
+}
+
+.section__card {
+    width: 352px;
+    display: flex;
+    flex-direction: column;
+}
+
+.card_high {
+    position: relative;
+    top: -96px;
+}
+
+.section__pic {
+    width: 352px;
+    height: auto;
+}
+
+.section__name {
+    font-family: "Poppins_bold";
+    font-size: 18px;
+    line-height: 27px;
+    color: $main-color;
+    text-align: center;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.section__description {
+    font-family: "Poppins_medium";
+    font-size: 18px;
+    line-height: 27px;
+    color: $text-color;
+    text-align: center;
+    padding-bottom: 24px;
+}
+
+.section__button {
+    width: 147px;
+    height: 51px;
+    border-radius: 8px;
+    background-color: white;
+    margin-left: 102.5px;
+    margin-bottom: 69px;
+}

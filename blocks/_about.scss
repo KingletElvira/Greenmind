@@ -1,0 +1,56 @@
+.about {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 165px;
+}
+
+.about__title {
+    font-family: "Poppins_bold";
+    font-size: 32px;
+    line-height: 48px;
+    color: $main-color;
+    text-align: center;
+    padding-bottom: 12px;
+}
+
+.about__text {
+    font-family: "Poppins_medium";
+    font-size: 18px;
+    line-height: 27px;
+    color: $text-color;
+    text-align: center;
+    padding-bottom: 48px;
+}
+
+.advantages {
+    display: flex;
+    justify-content: space-between;
+}
+
+.advantages__section {
+    display: flex;
+    flex-direction: column;
+}
+
+.advantages__pic {
+    width: 96px;
+    margin: 0 auto;
+    padding-bottom: 24px;
+}
+
+.advantages__title {
+    font-family: "Poppins_bold";
+    font-size: 18px;
+    line-height: 27px;
+    color: black;
+    text-align: center;
+    padding-bottom: 12px;
+}
+
+.advantages__text {
+    font-family: "Poppins_medium";
+    font-size: 18px;
+    line-height: 27px;
+    color: $text-color;
+    text-align: center;
+}

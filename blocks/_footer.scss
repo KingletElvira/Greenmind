@@ -1,0 +1,89 @@
+@font-face {
+    font-family: "Poppins_regular";
+    src: url(/fonts/Poppins-Regular.ttf);
+}
+
+.page__footer {
+    padding-top: 48px;
+    flex-direction: column;
+}
+
+.footer__main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__main_left {
+    width: 192px;
+    height: 179px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.footer__logo {
+    font-family: "Quella";
+    font-size: 18px;
+    line-height: 29.27px;
+    color: black;
+}
+
+.footer__slogan {
+    font-family: "Poppins_medium";
+    font-size: 18px;
+    line-height: 27px;
+    color: $text-color;
+}
+
+.social-media {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.social-media__pic {
+    width: 48px;
+}
+
+.footer__main_right {
+    width: 452px;
+    height: 180px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.column__title {
+    font-family: "Poppins_bold";
+    font-size: 18px;
+    line-height: 27px;
+    color: $main-color;
+}
+
+.column__subtitle {
+    font-family: "Poppins_regular";
+    font-size: 18px;
+    line-height: 27px;
+    color: $text-color;
+}
+
+.footer__rights {
+    font-family: "Poppins_medium";
+    font-size: 18px;
+    font-family: 27px;
+    color: $text-color;
+    padding-top: 96px;
+    padding-bottom: 48px;
+}
+
+.background-footer {
+    width: 100%;
+    height: 400px;
+    background-color: $bg-color;
+}
